@@ -9,7 +9,7 @@ var mySlider;
 
 function setup() {
   pos=0;
-  canvas1 = createCanvas(windowWidth,windowHeight*2);
+  canvas1 = createCanvas(windowWidth,windowHeight);
   myButton = createButton('test');
   myButton.mousePressed(changeColor);
   value=200;
@@ -21,9 +21,8 @@ function changeColor(){
   value = 150;
 }
 
-window.onresize = function resizing(){
-  //println("resizign" +windowWidth +" "+ windowHeight);
-  resizeCanvas(windowWidth, windowHeight*2);
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 window.onscroll = function scrolling(){
@@ -33,7 +32,7 @@ window.onscroll = function scrolling(){
 
 
 function draw() {
-  value=map(window.pageYOffset,0,height/2,0,255);
+  //value=map(window.pageYOffset,0,height/2,0,255);
   background(value);
 
   //fill(255,0,0);
