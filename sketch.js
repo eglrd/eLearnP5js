@@ -2,6 +2,7 @@
 // JSON Formatter - Chrome Web Store - Google
 // https://developer.feedly.com/v3/
 // https://tonicdev.com/npm/feedly-js
+// https://github.com/charleslavon/feedly-get
 var canvas;
 var value;
 var mySlider;
