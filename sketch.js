@@ -14,12 +14,17 @@ function setup() {
   myButton.mousePressed(changeColor);
   value=200;
   mySlider = createSlider(0,100,50);
+
 }
 
 function changeColor(){
   value = 150;
 }
 
+window.onresize = function resizing(){
+  println("resizign" +windowWidth +" "+ windowHeight);
+  resizeCanvas(windowWidth, windowHeight);
+}
 
 
 function draw() {
