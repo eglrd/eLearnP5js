@@ -3,6 +3,7 @@
 // https://developer.feedly.com/v3/
 // https://tonicdev.com/npm/feedly-js
 // https://github.com/charleslavon/feedly-get
+// https://developer.chrome.com/apps/app_usb
 var canvas;
 var value;
 var mySlider;
