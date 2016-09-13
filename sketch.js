@@ -1,9 +1,12 @@
+// -------notes 
 // 8.4 Loading JSON data from a URL (Asynchronous Callbacks!) - p5.js Tutorial
 // JSON Formatter - Chrome Web Store - Google
 // https://developer.feedly.com/v3/
 // https://tonicdev.com/npm/feedly-js
 // https://github.com/charleslavon/feedly-get
 // https://developer.chrome.com/apps/app_usb
+// https://github.com/jamesnesfield/node-waterrower
+// ------ end notes
 var canvas;
 var value;
 var mySlider;
